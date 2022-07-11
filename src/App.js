@@ -6,7 +6,10 @@ function App() {
       <header className="App-header">
         
         <p>
-          Natan Miguel <code>Front-end Developer</code> 
+          Natan Miguel |
+         </p>
+         <p> 
+          <code>Front-end Developer</code> 
         </p>
         
       </header>
