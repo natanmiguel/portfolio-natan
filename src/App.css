@@ -15,12 +15,15 @@
 }
 
 .App-header code {
-  font-size: 2vmin;
+  font-size: calc(7px + 2vmin);
   color: #21243D;
 }
 
 .App-header p {
+  font-size: calc(16px + 2vmin);
+  font-family: 'Acme', sans-serif;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .image-perfil img {
@@ -39,15 +42,32 @@
 }
 
 .icons {
-  padding: 10px;
   color: #21243D;
 }
 
 .social-media a {
+  margin: 10px;
+  display: flexbox;
   height: 30px;
   width: 30px;
 }
 
+.linkedin:hover {
+  color: #0072b1;
+}
+.github:hover {
+  background-color: #000000;
+  border-radius: 50%;
+  color: rgb(185, 229, 238);
+  
+}
+.instagram:hover {
+  border-radius: 25%;
+  color: white;
+  -webkit-background-clip: icon;
+	-webkit-text-fill-color: transparent;
+  background: linear-gradient(70deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 52%, rgba(252,176,69,1) 100%);
+}
 
 
 

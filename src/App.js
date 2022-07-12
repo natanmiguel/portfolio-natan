@@ -1,5 +1,5 @@
 import './App.css';
-import  {FaLinkedin, FaGithubSquare, FaInstagramSquare} from 'react-icons/fa';
+import  {FaLinkedin, FaGithub, FaInstagram} from 'react-icons/fa';
 import mainProfile from './imageperfil.jpg';
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
         </div>
         <div className="social-media">
           <a href='https://www.linkedin.com/in/natan-miguel-948b82230/'><FaLinkedin className='icons linkedin'/></a>
-          <a href='https://github.com/natanmiguel'><FaGithubSquare className='icons github'/></a>
-          <a href='https://www.instagram.com/n1_natan/'><FaInstagramSquare className='icons instagram' /></a>
+          <a href='https://github.com/natanmiguel'><FaGithub className='icons github'/></a>
+          <a href='https://www.instagram.com/n1_natan/'><FaInstagram className='icons instagram' /></a>
         </div>
         
         
