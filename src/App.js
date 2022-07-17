@@ -1,5 +1,6 @@
 import './App.css';
 import  {FaLinkedin, FaGithub, FaInstagram} from 'react-icons/fa';
+import TypeAnimation from 'react-type-animation';
 import mainProfile from './imageperfil.jpg';
 
 function App() {
@@ -13,9 +14,15 @@ function App() {
           <p>
             Natan Miguel
           </p>
-          <p> 
-            <code>Front-end Developer</code> 
-          </p>
+          <code>
+            <TypeAnimation
+              cursor={true}
+              sequence={['Front-end Developer.', 2000]}
+              wrapper="code"
+              repeat={1}
+            />
+          </code>
+         
         </div>
         <div className="social-media">
           <a href='https://www.linkedin.com/in/natan-miguel-948b82230/'><FaLinkedin className='icons linkedin'/></a>

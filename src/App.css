@@ -4,7 +4,7 @@
 
 
 .App-header {
-  background-color: #b9e5ee;;
+  background-color: #b9e5ee;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -47,13 +47,18 @@
 
 .social-media a {
   margin: 10px;
-  display: flexbox;
+  
   height: 30px;
   width: 30px;
 }
 
+
+
 .linkedin:hover {
   color: #0072b1;
+  background-color: white;
+  box-shadow: inset 0px 0px 0px 2px #b9e5ee;
+  border-radius: 25%;
 }
 .github:hover {
   background-color: #000000;
@@ -61,36 +66,17 @@
   color: rgb(185, 229, 238);
   
 }
-.instagram:hover {
-  border-radius: 25%;
-  color: white;
-  -webkit-background-clip: icon;
-	-webkit-text-fill-color: transparent;
-  background: linear-gradient(70deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 52%, rgba(252,176,69,1) 100%);
+
+.instagram {
+  font-size: 1.1em;
+  margin-bottom: -1px;
 }
-
-
-
-
-.colors-scale {
- 
-color: #12C2F8;
-color: #71F79F;
-color: #DD1C1A;
-color: #FFCB47;
-color: #3C3C3B;
-
-color: #FEF6C9;
-color: #F4D58D;
-color: #708D81;
-
-color: #21243D;
-color: #FF7C7C;
-color: #FFD082;
-color: #88E1F2;
-
-color: #222831;
-color: #393E46;
-color: #FFD369;
-color: #EEEEEE;
+.instagram:hover {
+  box-shadow: inset 0 0 0 1px #b9e5ee;
+  border-radius: 30%;
+  color: white;
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  background-size: 10%;
+  background: linear-gradient(70deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 52%, rgba(252,176,69,1) 100%);
 }
