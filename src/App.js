@@ -12,12 +12,10 @@ function App() {
   return (
     
       
-        <RotasApp />
+    <RotasApp />
+       
       
-        
-        
-      
-    );
+  );
  
 };
 

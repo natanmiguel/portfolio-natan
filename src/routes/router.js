@@ -5,11 +5,11 @@ import Curriculo from '../pages/curriculo';
 
 
 class RotasApp extends Component {
-render() {
-    const home = '/';
-    const curriculo = '/curriculo';
+    render() {
+        const home = '/portfolio-natan';
+        const curriculo = '/curriculo';
 
-	return (
+	    return (
         
             <Routes>
                 <Route exact path={home} element={<Home />} />
@@ -20,9 +20,9 @@ render() {
             </Routes>
 
         
-);
-}
-}
+        );
+    };
+};
 
 export default RotasApp;
 
