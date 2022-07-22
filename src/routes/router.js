@@ -6,7 +6,7 @@ import Curriculo from '../pages/curriculo';
 
 class RotasApp extends Component {
     render() {
-        const home = '/portfolio-natan';
+        const home = '/';
         const curriculo = '/curriculo';
 
 	    return (
@@ -15,7 +15,7 @@ class RotasApp extends Component {
                 <Route exact path={home} element={<Home />} />
                 
                 <Route exact path= {curriculo} element={<Curriculo/> } />
-              
+                <Route path="*" element={<> não encontrada 404</>} />
               
             </Routes>
 
