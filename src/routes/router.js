@@ -11,7 +11,7 @@ class RotasApp extends Component {
 
 	    return (
         
-            <Routes basename= "/portfolio-natan">
+            <Routes>
                 <Route exact path={home} element={<Home />} />
                 
                 <Route exact path= {curriculo} element={<Curriculo/> } />
