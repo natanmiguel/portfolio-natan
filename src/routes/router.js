@@ -6,8 +6,8 @@ import Curriculo from '../pages/curriculo';
 
 class RotasApp extends Component {
     render() {
-        const home = '/';
-        const curriculo = '/curriculo';
+        const home = '/portfolio-natan';
+        const curriculo = '/portfolio-natan/curriculo';
 
 	    return (
         
