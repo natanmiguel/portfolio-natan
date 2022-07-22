@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.fef13861.css",
-    "main.js": "/static/js/main.a12ab914.js",
-    "static/js/787.72dc4449.chunk.js": "/static/js/787.72dc4449.chunk.js",
-    "static/media/imageperfil.jpg": "/static/media/imageperfil.17d4e841e0abfe9e92e3.jpg",
-    "index.html": "/index.html",
-    "main.fef13861.css.map": "/static/css/main.fef13861.css.map",
-    "main.a12ab914.js.map": "/static/js/main.a12ab914.js.map",
-    "787.72dc4449.chunk.js.map": "/static/js/787.72dc4449.chunk.js.map"
+    "main.css": "/portfolio-natan/static/css/main.fef13861.css",
+    "main.js": "/portfolio-natan/static/js/main.fa482960.js",
+    "static/js/787.72dc4449.chunk.js": "/portfolio-natan/static/js/787.72dc4449.chunk.js",
+    "static/media/imageperfil.jpg": "/portfolio-natan/static/media/imageperfil.17d4e841e0abfe9e92e3.jpg",
+    "index.html": "/portfolio-natan/index.html",
+    "main.fef13861.css.map": "/portfolio-natan/static/css/main.fef13861.css.map",
+    "main.fa482960.js.map": "/portfolio-natan/static/js/main.fa482960.js.map",
+    "787.72dc4449.chunk.js.map": "/portfolio-natan/static/js/787.72dc4449.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fef13861.css",
-    "static/js/main.a12ab914.js"
+    "static/js/main.fa482960.js"
   ]
 }
