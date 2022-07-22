@@ -6,12 +6,12 @@ import Curriculo from '../pages/curriculo';
 
 class RotasApp extends Component {
     render() {
-        const home = '/portfolio-natan';
+        const home = '/';
         const curriculo = '/curriculo';
 
 	    return (
         
-            <Routes>
+            <Routes basename= "/portfolio-natan">
                 <Route exact path={home} element={<Home />} />
                 
                 <Route exact path= {curriculo} element={<Curriculo/> } />

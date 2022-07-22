@@ -1,8 +1,8 @@
 {
   "name": "portfolio-natan",
   "version": "0.1.0",
-  "homepage": "/portfolio-natan/",
-  "private": true,
+  "homepage": "https://natanmiguel.github.io/portfolio-natan/",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
