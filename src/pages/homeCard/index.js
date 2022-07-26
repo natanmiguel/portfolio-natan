@@ -3,7 +3,7 @@ import './homeCard.css';
 import SocialMedia from '../../components/socialMidia';
 import TypeAnimation from 'react-type-animation';
 import mainProfile from './imageperfil.jpg';
-
+import Projetos from '../projetos';
 
 
 
@@ -18,9 +18,9 @@ function Home() {
           <img src={mainProfile} alt={"Profile"}/>
         </div>
         <div>
-          <p>
+          <h1>
             Natan Miguel
-          </p>
+          </h1>
           <code>
             <TypeAnimation
               cursor={true}
@@ -32,9 +32,9 @@ function Home() {
          
         </div>
         <SocialMedia />
-       
-        
+          
       </header>
+      <Projetos/>
     </div>
   );
 };

@@ -19,7 +19,7 @@
     color: #21243D;
   }
   
-  .Home-header p {
+  .Home-header h1 {
     font-size: calc(16px + 2vmin);
     font-family: 'Acme', sans-serif;
     margin: 0;

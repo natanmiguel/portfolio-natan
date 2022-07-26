@@ -4,7 +4,7 @@ import './curriculo.css';
 function Curriculo() {
     
     return (
-        <div className='curriculo'> 
+        <div className='curriculoPage'> 
             <p>
                 Natan Miguel
             </p>
