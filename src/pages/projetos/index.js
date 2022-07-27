@@ -1,7 +1,6 @@
 import './projetos.css';
 import React from 'react';
-
-
+import CarouselProjects from '../../components/CarouselProjects';
 
 function Projetos() {
     
@@ -11,7 +10,7 @@ function Projetos() {
                 <h1>Projetos</h1>
             </div>
             <div className='meusProjetos'>
-              
+                <CarouselProjects className='carouselContainer' />
             </div>
         </div>
     );
