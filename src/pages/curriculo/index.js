@@ -1,13 +1,15 @@
 import './curriculo.css';
+import AboutMe from '../../components/Person';
 
 
 function Curriculo() {
-    
     return (
         <div className='curriculoPage'> 
             <p>
-                Natan Miguel
+                <AboutMe/>
+                
             </p>
+            
         </div>
     );
 };
