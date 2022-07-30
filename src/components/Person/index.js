@@ -4,7 +4,7 @@ class AboutMe extends React.Component {
     render(){
        const person = {firstName: 'Natan', 
         lastName: 'Miguel', 
-        age: 30, 
+        age: (Date.Year.now), 
         graduation: 'Bachelor of Computer Information Systems, Information Technology',
         ocupation: 'Junior Front-end Developer'
         };
@@ -21,8 +21,7 @@ class AboutMe extends React.Component {
                     
                 <h2>Minhas Skils são {knowledges.skills.join(', ')}.</h2>
                     
-                <h3>Falo {knowledges.languages.length} idiomas, são eles {knowledges.languages.join(', ')}.</h3>
-                
+                <h3>Falo {knowledges.languages.length} idiomas, são eles {knowledges.languages.join(', ')}.</h3>    
             </div>
         );  
     }
