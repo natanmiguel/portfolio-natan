@@ -1,5 +1,6 @@
 .projetos {
     background-color: #FEF6C9;
+    min-height: 100vh;
 }
 .projetos h1 {
     font-size: calc(16px + 2vmin);

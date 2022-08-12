@@ -31,10 +31,11 @@ function Home() {
           </code>
          
         </div>
-        <SocialMedia />
-          
+        <SocialMedia/>
+        
       </header>
       <Projetos/>
+    
     </div>
   );
 };
