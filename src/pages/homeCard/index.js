@@ -4,6 +4,7 @@ import SocialMedia from '../../components/socialMidia';
 import TypeAnimation from 'react-type-animation';
 import mainProfile from './imageperfil.jpg';
 import Projetos from '../projetos';
+import Habilidades from '../habilidades';
 
 
 
@@ -34,7 +35,9 @@ function Home() {
         <SocialMedia/>
         
       </header>
+      <Habilidades/>
       <Projetos/>
+      
     
     </div>
   );

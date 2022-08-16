@@ -6,6 +6,8 @@
     font-size: calc(16px + 2vmin);
     font-family: 'Acme', sans-serif;
     margin: 0;
+    padding: 30px;
+    
     letter-spacing: 2px;
   }
 
