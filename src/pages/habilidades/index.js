@@ -2,6 +2,7 @@ import './habilidades.css';
 import React from 'react';
 import  {FaHtml5, FaGithubAlt, FaCss3Alt} from 'react-icons/fa';
 import  {IoLogoJavascript, IoLogoReact } from "react-icons/io5";
+import { DiPostgresql } from "react-icons/di";
 
 function Habilidades() {
     return (
@@ -15,7 +16,6 @@ function Habilidades() {
                     <li>
                     <FaCss3Alt className='logoCSS logoSkills'/>
                     CSS 3
-                    
                     </li>
                     <li>
                     <FaHtml5 className='logoHTML logoSkills' />
@@ -24,6 +24,10 @@ function Habilidades() {
                     <li>
                     <IoLogoJavascript className='logoJS logoSkills'/>
                     JavaScript
+                    </li>
+                    <li>
+                    <DiPostgresql className='logoPGSQL logoSkills'/>
+                    PostgreSQL
                     </li>
                     <li>
                     <FaGithubAlt className='logoGIT logoSkills'/>

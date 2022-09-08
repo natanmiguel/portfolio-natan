@@ -5,6 +5,9 @@ import TypeAnimation from 'react-type-animation';
 import mainProfile from './imageperfil.jpg';
 import Projetos from '../projetos';
 import Habilidades from '../habilidades';
+import Sobre from '../sobre';
+import Experiencia from '../experiencia';
+import Footer from '../../components/FooterBar';
 
 
 
@@ -35,9 +38,11 @@ function Home() {
         <SocialMedia/>
         
       </header>
+      <Sobre/>
       <Habilidades/>
       <Projetos/>
-      
+      <Experiencia/>
+      <Footer/>
     
     </div>
   );

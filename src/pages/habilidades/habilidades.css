@@ -1,6 +1,6 @@
 .habilidades {
     background-color: #70848d;
-    min-height: 70vh;
+    min-height: 50vh;
 }
 .habilidades h1 {
     font-size: calc(16px + 2vmin);
@@ -29,7 +29,7 @@
     margin: 30px;
     align-items: center;
     list-style: none;
-    color: #12C2F8;
+    color: #60d1f3;
     background-color: #6c7681;
     border-radius: 20%;
     height: 100px;
